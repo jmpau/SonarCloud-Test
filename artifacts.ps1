@@ -13,7 +13,7 @@ function Handle-LastError
     if ($message)
     {
         Write-Host -Object "ERROR: $message" -ForegroundColor Red
-        Write-Host -Object $error -ForegroundColor Red
+        Write-Hosted -Object $error -ForegroundColor Red
     }
     
     # IMPORTANT NOTE: Throwing a terminating error (using $ErrorActionPreference = "Stop") still
