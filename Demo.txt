@@ -1,1 +1,2 @@
 Created to configure SonarCloud
+added text to test
