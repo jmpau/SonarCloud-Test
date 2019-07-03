@@ -7,7 +7,7 @@ namespace WebApp
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Additonaldsakflj(new HandleErrorAttribute());
+            filters.Add(new HandleErrorAttribute());
         }
     }
 }

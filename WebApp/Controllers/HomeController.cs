@@ -11,6 +11,7 @@ namespace WebApp.Controllers
         public ActionResult Index()
         {
             return View();
+            Destroy this code
         }
 
         public ActionResult About()
